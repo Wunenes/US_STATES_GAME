@@ -37,7 +37,7 @@ while game_is_on:
 
             # after user gets all 50 states
             if len(answers) == 50:
-                screen.textinput(title="Congratulations, you got all 50 states!")
+                screen.textinput(title="Congratulations!", prompt="You got all 50 states!")
 
     # exit and displaying missing states
     if answer == "Exit":
